@@ -1,7 +1,7 @@
 # Bizcope
 
 ## Description
-The Bizcope API is a Node/Express application. It is designed to scrape LinkedIn accounts and email addresses from any given URL and present the results in JSON format.  The Bizcope API is currently deployed [here](https://bizcope.onrender.com).
+The Bizcope API is a Node/Express application. It is designed to scrape LinkedIn accounts and email addresses from any given URL and present the results in JSON format.  The Bizcope API is currently deployed [here](https://bizcope.onrender.com/scrape/).  NOTE: remember to append the URL you wish to scrape to the link!
 
 The API utilizes the following technologies:
 - Node.js
