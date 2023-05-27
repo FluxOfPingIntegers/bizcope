@@ -3,6 +3,8 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const url = require('url');
 const app = express();
+const bodyParser = require('body-parser');
+require('dotenv').config();
 
 app.get('/scrape/*', (req, res) => {
   const domain = req.params[0];
@@ -90,6 +92,8 @@ app.get('/scrape/*', (req, res) => {
   }
 });
 
-app.listen(3000, () => {
-  console.log('Server listening on port 3000');
+const port =process.env.PORT || 3000;
+
+app.listen(port, () => {
+  console.log(`Server listening on port ${port}`);
 });
